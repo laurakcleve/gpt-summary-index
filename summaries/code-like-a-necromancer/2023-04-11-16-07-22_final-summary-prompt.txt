@@ -1,0 +1,24 @@
+The following are summaries of different parts of a video named 'Succeed by coding like a Necromancer'. Please create a comprehensive summary that combines all of the individual summaries provided, without omitting any information. The final summary should include all relevant details from each summary and provide a complete overview of the subject matter. Write it in first person point of view.
+
+Summaries:In this video, I discuss the concept of "coding like a necromancer" and how embracing one's graveyard of unfinished projects can lead to personal growth and success. I begin by acknowledging that many developers feel anxiety about not completing projects they've started, which can lead to stagnation and lack of progress.
+
+To combat this anxiety, I suggest embracing the idea of the graveyard and using past projects as fuel for future ones. By learning from past mistakes and using code snippets from old projects, one can build a library of resources to reference for new projects. This allows for a more efficient workflow and can help prevent feeling overwhelmed.
+
+Coding like a necromancer involves treating every unfinished project as a success, learning from failure, and starting over when necessary. This mindset makes it easier to move on from past projects and focus on current ones without feeling burdened by past failures.
+
+I emphasize the importance of starting over and experimenting with different approaches, as this can lead to a deeper understanding of coding concepts and best practices.
+
+To illustrate my point, I share a personal project called Parallax Fjord, which involved creating a parallax scrolling effect using Svelte, React, and Vue. Despite never feeling truly satisfied with the project, I learned valuable lessons from the experience and gained new skills along the way.
+
+In conclusion, coding like a necromancer means embracing the learning process and treating every project, finished or not, as a success. By shifting focus from completion to growth, developers can alleviate anxiety and continue to progress in their careers.
+
+In the video 'Succeed by coding like a Necromancer', I discussed the importance of recognizing success in unfinished projects and not letting them weigh you down. I shared a personal example of a web development project I worked on, where I built an interactive JavaScript animation for desktops. However, I faced various challenges when trying to make it compatible with mobile devices and optimizing its performance.
+
+These issues made me feel anxious and unsatisfied with my work, and I couldn't bring myself to showcase the project to others. This feeling of not completing a project haunted me for months, and I felt like I had wasted my time and effort.
+
+After reflecting on this experience, I realized that it's essential to treat your projects as successful even if they are not fully completed. This perspective shift helped me acknowledge the skills and knowledge I gained from the project rather than dwelling on its imperfections.
+
+I emphasized that this feeling of disappointment and anxiety is common among developers, regardless of their experience level. The key to overcoming this is to sit back, reflect on your accomplishments, and let go of the project's shortcomings. This approach has worked for me, helping me stay happy, continue progressing, and improve my craft.
+
+In conclusion, recognizing success in unfinished projects can help alleviate anxiety and dissatisfaction, allowing you to move on and tackle new challenges with confidence. While this method may not work for everyone, I hope it can benefit some developers and encourage them to keep learning and growing.
+

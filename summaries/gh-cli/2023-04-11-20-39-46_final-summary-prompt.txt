@@ -1,0 +1,40 @@
+The following are summaries of different parts of a video named 'Streamline your repo workflow with Github CLI'. Please create a comprehensive summary that combines all of the individual summaries provided, without omitting any information. The final summary should include all relevant details from each summary and provide a complete overview of the subject matter. Write it in first person point of view.
+
+SUMMARIES:
+
+In this video, I demonstrated various practical commands of the Github CLI to speed up the workflow for web developers. To get started with Github CLI, you can head over to CLI.github.com and install the CLI tool.
+
+Some of the most useful commands I discussed include:
+
+1. gh repo create: This command creates a new Github repository quickly without having to go through the web interface.
+
+2. gh repo list: Lists all the repositories and helps to check if the repo has been created.
+
+3. gh repo edit: Allows you to edit the repository's visibility (public/private).
+
+4. gh pr create: Creates a pull request and walks you through a wizard for changing the title or creating the PR as a draft.
+
+5. gh pr view: Displays information about the pull request, such as checks running, reviewers, etc.
+
+6. gh pr edit: Allows you to edit the pull request, such as adding reviewers.
+
+7. gh pr list (or gh pr ls): Lists all the pull requests for your project.
+
+8. gh pr merge: Merges the current branch into the main branch, deletes the branch locally and on Github, and pulls down the main branch with the updates.
+
+9. gh pr checkout: Checks out a specific pull request based on its number.
+
+10. gh pr status: Displays the list of PRs and their status.
+
+These Github CLI commands are very handy and can help web developers save time and effort while managing their repositories and pull requests. Combining them with snippets in tools like Raycast can make them even more powerful and efficient.
+
+In this video, I discussed how to streamline repo workflow using Github CLI. I started by explaining the command gh pr status, which shows the list of PRs that affect you, such as the current branch's PR, PRs created by you, and PRs requesting a code review from you.
+
+Next, I demonstrated how the CLI tool can be useful for workflows like tests, Linton tests, or continuous integration actions. I showed an example of creating a PR that would purposely fail our tests and how to use gh PR view to check the status of the workflows.
+
+I also covered the gist commands in Github CLI, which allow you to create, list, and view gists easily. I showed how to use gh gist list, gh gist view, and gh gist clone to manage gists efficiently.
+
+Lastly, I introduced the gh search repos command, which allows you to search for specific repos by tags or names. Additionally, you can output the results in JSON format and select specific properties to include in the output.
+
+In conclusion, the Github CLI offers various powerful commands and features to streamline your repo workflow, making it a valuable tool for web developers.
+

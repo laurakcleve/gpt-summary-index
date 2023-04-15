@@ -1,0 +1,32 @@
+The following are summaries of different parts of a video named 'Using git bisect to quickly find the origin of a bug'. Please create a comprehensive summary that combines all of the individual summaries provided, without omitting any information. The final summary should include all relevant details from each summary and provide a complete overview of the subject matter. It should include any names that would be useful in for a keyword search: names of tools, specific commands or messages, etc. Write it in first person point of view.
+
+SUMMARIES:
+
+In this video, I covered git bisect, a powerful command that helps to quickly locate errors in a code base. This technique is especially useful when dealing with tricky bugs that are difficult to track down. I started by showing a Twitter thread that sparked my interest in git bisect and explained how it relates to the binary search technique that I've used in the past for debugging.
+
+To demonstrate git bisect, I used a git repository I created for practicing this command. The repository contains an invoice printer example, inspired by Martin Fowler's book "Refactoring." The main file, index.js, imports the invoice printer and generates an invoice using data from JSON files. There's also a test suite, which helps to ensure the code works correctly.
+
+I began by running the test suite, which showed a failure due to an incorrect calculation. I checked out the initial commit, ran the test suite again, and it passed, indicating that a bug was introduced somewhere along the way. To find the commit that introduced the bug, I started the git bisect process.
+
+First, I ran `git bisect start` to begin the bisect session. Next, I specified the bad commit (the current one) and the good commit (the initial one) by running `git bisect bad` and `git bisect good <commit-hash>`, respectively. The bisect session then placed me on a commit halfway between the good and bad commits.
+
+I ran the test suite to determine if the commit was good or bad. If the test passed, I would mark the commit as good with `git bisect good`. If it failed, I would mark it as bad with `git bisect bad`. Git bisect then moved me to another commit, and I repeated the process until I found the commit that introduced the bug.
+
+Overall, git bisect is a powerful tool to have in a web developer's toolkit. It can help to quickly and efficiently locate the origin of bugs, saving time and effort in the debugging process.
+
+In this video, I demonstrated how to use git bisect to quickly find the origin of a bug in a web development project. I started by showing an example with a test that passed, and then used git bisect to determine whether a commit was good or bad. I also demonstrated how to run git bisect with npm test, which can help automate the process even further.
+
+The key steps in using git bisect are as follows:
+
+1. Start by running 'git bisect start'.
+2. Identify a commit where the bug is present and mark it as bad by running 'git bisect bad'.
+3. Identify a commit where the bug is not present and mark it as good by running 'git bisect good'.
+4. Git will now bisect the commits, checking out each one and allowing you to test whether the bug is present or not. Mark each commit as good or bad accordingly.
+5. Once the first bad commit is found, git will display a message indicating the commit that introduced the bug.
+
+You can also use 'git bisect run npm test' to automatically run tests for each commit and determine whether they are good or bad. This can be especially helpful in situations where you have a large number of commits to go through.
+
+In addition, I showed an example of how to use git bisect even when there are no tests in the project. By writing a test that checks for the expected output at the current position on master, you can then run git bisect with npm test to find the commit that introduced the bug. This works by leaving the test untracked and allowing git to check out each commit while keeping the untracked test file in place.
+
+Overall, git bisect is a powerful technique that can save web developers a lot of time when trying to find the origin of a bug in their projects.
+
